@@ -1,12 +1,12 @@
 # Docker-web
 
-## 📌 Présentation
+## Présentation
 Ce projet est réalisé dans le cadre d’un **TP Docker Compose**.  
 Il a pour objectif de déployer une **stack LAMP** (Linux, Apache, MySQL, PHP) en utilisant **Docker Compose**, avec une architecture basée sur **un service = un conteneur**.
 
 ---
 
-## 🧱 Architecture de la stack
+## Architecture de la stack
 
 - **Apache** (image officielle `httpd`)
   - Sert les fichiers web
@@ -22,18 +22,18 @@ Chaque service est isolé dans son propre conteneur.
 
 ---
 
-## 📂 Arborescence du projet
+##📂 Arborescence du projet
 
-Docker-web/
-├── apache/
-│ ├── httpd.conf
-│ └── my-vhost.conf
-├── php/
-│ └── Dockerfile
-├── src/
-│ └── index.php
-├── docker-compose.yml
-└── .gitignore
+	Docker-web/
+	├── apache/
+	│ ├── httpd.conf
+	│ └── my-vhost.conf
+	├── php/
+	│ └── Dockerfile
+	├── src/
+	│ └── index.php
+	├── docker-compose.yml
+	└── .gitignore
 
 
 ---
