@@ -1,0 +1,6 @@
+# Docker
+*.log
+.env
+
+# Volumes Docker (si jamais)
+db_data/
